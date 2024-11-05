@@ -1,0 +1,61 @@
+[20-Sep-2023 11:34:05 Asia/Jakarta] PHP Notice:  Undefined index: user_level in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 5
+[20-Sep-2023 11:34:05 Asia/Jakarta] PHP Notice:  Undefined index: user_status in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 6
+[20-Sep-2023 11:34:05 Asia/Jakarta] PHP Notice:  Undefined index: user_id in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 17
+[20-Sep-2023 11:34:05 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/aksi/functions.php on line 11
+[20-Sep-2023 11:34:05 Asia/Jakarta] PHP Notice:  Undefined offset: 0 in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 22
+[20-Sep-2023 11:34:05 Asia/Jakarta] PHP Notice:  Undefined index: user_level in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header.php on line 5
+[20-Sep-2023 11:34:05 Asia/Jakarta] PHP Notice:  Undefined index: user_status in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header.php on line 6
+[20-Sep-2023 11:34:05 Asia/Jakarta] PHP Notice:  Undefined index: user_id in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_nav.php on line 81
+[20-Sep-2023 11:34:05 Asia/Jakarta] PHP Notice:  Undefined index: user_nama in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_sidebar.php on line 16
+[20-Sep-2023 12:37:10 Asia/Jakarta] PHP Notice:  Undefined index: user_level in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 5
+[20-Sep-2023 12:37:10 Asia/Jakarta] PHP Notice:  Undefined index: user_status in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 6
+[20-Sep-2023 12:37:10 Asia/Jakarta] PHP Notice:  Undefined index: user_id in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 17
+[20-Sep-2023 12:37:10 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/aksi/functions.php on line 11
+[20-Sep-2023 12:37:10 Asia/Jakarta] PHP Notice:  Undefined offset: 0 in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 22
+[20-Sep-2023 12:37:10 Asia/Jakarta] PHP Notice:  Undefined index: user_level in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header.php on line 5
+[20-Sep-2023 12:37:10 Asia/Jakarta] PHP Notice:  Undefined index: user_status in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header.php on line 6
+[20-Sep-2023 12:37:10 Asia/Jakarta] PHP Notice:  Undefined index: user_id in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_nav.php on line 81
+[20-Sep-2023 12:37:10 Asia/Jakarta] PHP Notice:  Undefined index: user_nama in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_sidebar.php on line 16
+[20-Sep-2023 12:37:10 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/aksi/functions.php on line 11
+[20-Sep-2023 13:19:49 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:21:03 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:21:45 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:21:54 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:22:00 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:22:48 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:24:19 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/aksi/functions.php on line 11
+[20-Sep-2023 13:24:19 Asia/Jakarta] PHP Notice:  Undefined offset: 0 in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/user-zoom.php on line 24
+[20-Sep-2023 13:24:29 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/aksi/functions.php on line 11
+[20-Sep-2023 13:24:29 Asia/Jakarta] PHP Notice:  Undefined offset: 0 in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/user-zoom.php on line 24
+[20-Sep-2023 13:24:54 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/aksi/functions.php on line 11
+[20-Sep-2023 13:24:54 Asia/Jakarta] PHP Notice:  Undefined offset: 0 in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/user-zoom.php on line 24
+[20-Sep-2023 13:24:57 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/aksi/functions.php on line 11
+[20-Sep-2023 13:24:57 Asia/Jakarta] PHP Notice:  Undefined offset: 0 in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/user-zoom.php on line 24
+[20-Sep-2023 13:27:40 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:27:41 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:27:43 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:29:03 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/user-edit.php on line 207
+[20-Sep-2023 13:29:05 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:29:35 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:31:05 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 13:31:59 Asia/Jakarta] PHP Notice:  Undefined index: cabang in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/users.php on line 19
+[20-Sep-2023 14:58:44 Asia/Jakarta] PHP Notice:  Undefined index: user_level in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 5
+[20-Sep-2023 14:58:44 Asia/Jakarta] PHP Notice:  Undefined index: user_status in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 6
+[20-Sep-2023 14:58:44 Asia/Jakarta] PHP Notice:  Undefined index: user_id in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 17
+[20-Sep-2023 14:58:44 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/aksi/functions.php on line 11
+[20-Sep-2023 14:58:44 Asia/Jakarta] PHP Notice:  Undefined offset: 0 in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 22
+[20-Sep-2023 14:58:44 Asia/Jakarta] PHP Notice:  Undefined index: user_level in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header.php on line 5
+[20-Sep-2023 14:58:44 Asia/Jakarta] PHP Notice:  Undefined index: user_status in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header.php on line 6
+[20-Sep-2023 14:58:44 Asia/Jakarta] PHP Notice:  Undefined index: user_id in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_nav.php on line 81
+[20-Sep-2023 14:58:44 Asia/Jakarta] PHP Notice:  Undefined index: user_nama in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_sidebar.php on line 16
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Notice:  Undefined index: user_level in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 5
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Notice:  Undefined index: user_status in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 6
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Notice:  Undefined index: user_id in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 17
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/aksi/functions.php on line 11
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Notice:  Undefined offset: 0 in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header-artibut.php on line 22
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Notice:  Undefined index: user_level in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header.php on line 5
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Notice:  Undefined index: user_status in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_header.php on line 6
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Notice:  Undefined index: user_id in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_nav.php on line 81
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Notice:  Undefined index: user_nama in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/_sidebar.php on line 16
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/aksi/functions.php on line 11
+[28-Oct-2023 21:41:39 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/eydg1495/public_html/demo/pos-kasir/pos-kasir-grosir/bo.php on line 44
