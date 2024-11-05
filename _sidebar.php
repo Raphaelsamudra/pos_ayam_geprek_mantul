@@ -29,7 +29,9 @@
               </p>
             </a>
           </li>
-
+          <?php } ?>
+          
+          <?php if ( $levelLogin === "kasir" ) { ?>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fa fa-shopping-cart"></i>
@@ -114,7 +116,7 @@
           </li>
           <?php } ?>
 
-          <?php if ( $levelLogin !== "kasir" && $levelLogin !== "kurir" ) { ?>
+          <?php if ( $levelLogin === "admin" && $levelLogin === "admin" ) { ?>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fa fa-shopping-bag"></i>
@@ -176,7 +178,7 @@
           </li>
           <?php } ?>
 
-          <?php if ( $levelLogin !== "admiin" ) { ?>
+          <?php if ( $levelLogin !== "admin" ) { ?>
           <!--<li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fa fa-exchange"></i>
@@ -220,7 +222,7 @@
           </li>-->
           <?php } ?>
 
-          <?php if ( $levelLogin !== "kasir" ) { ?>
+          <?php if ( $levelLogin === "admin" ) { ?>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fa fa-cutlery"></i>
@@ -246,6 +248,34 @@
             </ul>
           </li>
           <?php } ?>
+
+          <?php if ( $levelLogin === "admin" ) { ?>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-cube"></i>
+              <p>
+                Stok
+                <i class="fas fa-angle-left right"></i>
+                <span class="badge badge-info right"></span>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="supplier" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Barang</p>
+                </a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="ekspedisi" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Ekspedisi</p>
+                </a>
+              </li> -->
+            </ul>
+          </li>
+          <?php } ?>
+
 
           <?php if ( $levelLogin !== "kurir" ) { ?>
          <!-- <li class="nav-item has-treeview">
@@ -322,7 +352,7 @@
           </li>
           <?php } ?>
           
-          <?php if ( $levelLogin === "admin" && $levelLogin !== "super admin" ) { ?>
+          <?php if ( $levelLogin === "super admin" ) { ?>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fa fa-file"></i>
@@ -377,7 +407,7 @@
               </li>-->
               <?php } ?>
 
-              <?php if ( $levelLogin !== "admin" && $levelLogin !== "super admin" ) { ?>
+              <?php if ( $levelLogin === "super admin" ) { ?>
               <li class="nav-item">
                 <a href="periode" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
@@ -406,6 +436,19 @@
             </ul>
             <?php } ?>
           </li>
+
+          <?php if ( $levelLogin === "super admin" ) { ?>
+          <li class="nav-header">SETTINGS</li>
+          <li class="nav-item">
+            <a href="user-type" class="nav-link">
+              <i class="nav-icon fa fa-users"></i> 
+              <p>
+                 Users
+              </p>
+            </a>
+          </li>
+        <?php } ?>
+
           
           <?php if ( $levelLogin === "super admin" ) { ?>
           <!--<li class="nav-item has-treeview">
@@ -435,28 +478,6 @@
             </ul>
           </li>-->
           <?php } ?>
-
-          <?php if ( $levelLogin === "super admin" ) { ?>
-          <li class="nav-header">SETTINGS</li>
-          <li class="nav-item">
-            <a href="user-type" class="nav-link">
-              <i class="nav-icon fa fa-users"></i> 
-              <p>
-                 Users
-              </p>
-            </a>
-          </li>
-          <?php if ( $sessionCabang == 0 ) { ?>
-          <!--<li class="nav-item">
-            <a href="toko" class="nav-link">
-              <i class="nav-icon fa fa-id-card-o"></i> 
-              <p>
-                 Toko
-              </p>
-            </a>
-          </li>-->
-          <?php } ?>
-        <?php } ?>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
