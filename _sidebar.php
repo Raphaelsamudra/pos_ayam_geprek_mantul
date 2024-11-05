@@ -25,7 +25,7 @@
             <a href="bo" class="nav-link">
               <i class="nav-icon fa fa-desktop"></i> 
               <p>
-                 Dashboardd
+                 Dashboard
               </p>
             </a>
           </li>
