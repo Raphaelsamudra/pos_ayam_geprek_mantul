@@ -74,16 +74,16 @@
               <li class="nav-item">
                 <a href="customer" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Customer</p>
+                  <p>Kode Referral</p>
                 </a>
               </li>
-              <li class="nav-item">
+              <!--<li class="nav-item">
                 <a href="penjualan" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Invoice Penjualan</p>
                 </a>
-              </li>
-              <li class="nav-item has-treeview">
+              </li>-->
+              <!--<li class="nav-item has-treeview">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>
@@ -109,7 +109,7 @@
                       <i class="far fa-dot-circle nav-icon"></i>
                       <p>Lunas</p>
                     </a>
-                  </li>
+                  </li>-->
                 </ul>
               </li>
             </ul>

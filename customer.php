@@ -5,7 +5,7 @@
 ?>
 
 <?php  
-  if ( $levelLogin === "kurir") {
+  if ($levelLogin === "kurir") {
     echo "
       <script>
         document.location.href = 'bo';
@@ -20,12 +20,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Data Customer</h1>
+            <h1>Data Kode Refferal</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="bo">Home</a></li>
-              <li class="breadcrumb-item active">Customers</li>
+              <li class="breadcrumb-item active">Kode Referral</li>
             </ol>
           </div>
           <div class="tambah-data">
@@ -34,7 +34,6 @@
         </div>
       </div><!-- /.container-fluid -->
     </section>
-
 
     <?php  
     	$data = query("SELECT * FROM customer WHERE customer_cabang = $sessionCabang ORDER BY customer_id DESC");
@@ -46,7 +45,7 @@
 
           <div class="card">
             <div class="card-header">
-              <h3 class="card-title">Data Customer Keseluruhan</h3>
+              <h3 class="card-title">Data Kode Referral Keseluruhan</h3>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
@@ -66,8 +65,8 @@
                   <tbody>
 
                   <?php $i = 1; ?>
-                  <?php foreach ( $data as $row ) : ?>
-                    <?php if ( $row['customer_id'] > 1 && $row['customer_nama'] !== "Customer Umum" ) { ?>
+                  <?php foreach ($data as $row) : ?>
+                    <?php if ($row['customer_id'] > 1 && $row['customer_nama'] !== "Customer Umum") { ?>
                   <tr>
                     	<td><?= $i; ?></td>
                     	<td><?= $row['customer_nama']; ?></td>
@@ -76,7 +75,7 @@
                         <?php  
                           $alamat = $row['customer_alamat'];
                           $alamat1 = substr($row['customer_alamat'],0,18) . '...';
-                            if ( str_word_count($alamat) > 2 ) {
+                            if (str_word_count($alamat) > 2) {
                               echo($alamat1);
                             } else {
                               echo($alamat);
@@ -85,9 +84,9 @@
                       </td>
                       <td>
                         <?php  
-                          if ( $row['customer_category'] == 1 ) {
+                          if ($row['customer_category'] == 1) {
                               $customer_category = "Grosir 1";
-                          } elseif ( $row['customer_category'] == 2 ) {
+                          } elseif ($row['customer_category'] == 2) {
                               $customer_category = "Grosir 2";
                           } else {
                               $customer_category = "Umum";
@@ -97,7 +96,7 @@
                       </td>
                       <td style="text-align: center;">
                       	<?php 
-                      		if ( $row['customer_status'] === "1" ) {
+                      		if ($row['customer_status'] === "1") {
                       			echo "<b>Aktif</b>";
                       		} else {
                       			echo "<b style='color: red;'>Tidak Aktif</b>";
@@ -141,7 +140,6 @@
     <!-- /.content -->
   </div>
 </div>
-
 
 <?php include '_footer.php'; ?>
 
